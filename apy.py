@@ -22,7 +22,7 @@ st.set_page_config(page_title="Maize Crop Prediction in Kenya", layout="wide")
 @st.cache_data
 def load_data():
     # Replace this with the actual path to your data in the GitHub repository
-    data_url = "https://raw.githubusercontent.com/your-username/your-repo/main/maize_data.csv"
+    data_url = "Food_Prices_Kenya.csv"
     df = pd.read_csv(data_url)
     return df
 

@@ -107,6 +107,6 @@ st.plotly_chart(fig, use_container_width=True)
 st.subheader("Additional Information")
 with st.expander("See explanation"):
     st.write("""
-        This application predicts the maize crop price based on historical data,
+        This application predicts the maize crop price based on historical data, 
         including production volumes, annual temperature, and rainfall for various regions in Kenya.
     """)
